@@ -488,6 +488,216 @@ svg {
   color: #555;
 }
 
+.last-text {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.last-holder {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.last-text-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.last-text:hover .lst-img img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.last-linker i {
+  transition: transform 0.3s ease-in-out;
+}
+
+.last-text:hover .last-linker i {
+  transform: translateX(5px);
+}
+.lst {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 230px;
+}
+
+.checks i {
+  transition: transform 0.3s ease-in-out;
+}
+
+.last-text:hover .checks i {
+  transform: translateX(5px);
+}
+
+.move-for i {
+  transition: transform 0.3s ease;
+}
+
+.move-for:hover i {
+  transform: translateX(5px);
+}
+
+#lisst:hover .lister-img img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.final-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  background-image: url(callout-rebrand-lightning.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+}
+
+.final-holder {
+  width: 750px;
+  text-align: center;
+}
+
+.top-font {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.top-font-inside {
+  display: flex;
+}
+
+.foot-hold {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.foot-contain {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inps-hold {
+  display: flex;
+  align-items: center;
+}
+
+.inps {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  border-bottom: 1px solid white;
+  gap: 15px;
+  height: 37px;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  background-color: transparent;
+  border: none;
+}
+
+::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.display-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  width: 100%;
+}
+
+.display {
+  display: flex;
+  gap: 120px;
+  width: 65%;
+}
+
+.display-cont ul li {
+  list-style: none;
+  margin-top: 10px;
+  color: silver;
+  font-size: 16px;
+}
+
+.display-cont {
+  width: 100%;
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.Finally {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Finally-head {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #b6bbcf;
+}
+
+.e-choke ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.e-choke ul li:hover {
+  color: rgb(153, 229, 255);
+  transition: ease-in-out 0.25s;
+}
+
+.e-choke-links {
+  display: flex;
+  gap: 20px;
+}
+.last-butt {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.heavens:hover {
+  text-decoration: underline !important;
+}
+
+.friend{
+  padding-bottom: 15px !important;
+  border-bottom: 3px solid rgb(75, 115, 226) !important; 
+}
+
+.enemy{
+  width: 300px;
+  padding: 0px 15px !important;
+}
+
+
 @media screen and (max-width: 1024px) {
   .header-text h1 {
     font-size: 48px !important;
@@ -1012,199 +1222,4 @@ svg {
   .inps-hold p {
     display: none !important;
   }
-}
-
-.last-text {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 30px;
-  padding: 40px;
-}
-
-.last-holder {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.last-text-holder {
-  display: flex;
-  flex-direction: row;
-}
-
-.last-text:hover .lst-img img {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-}
-
-.last-linker i {
-  transition: transform 0.3s ease-in-out;
-}
-
-.last-text:hover .last-linker i {
-  transform: translateX(5px);
-}
-.lst {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-  width: 230px;
-}
-
-.checks i {
-  transition: transform 0.3s ease-in-out;
-}
-
-.last-text:hover .checks i {
-  transform: translateX(5px);
-}
-
-.move-for i {
-  transition: transform 0.3s ease;
-}
-
-.move-for:hover i {
-  transform: translateX(5px);
-}
-
-#lisst:hover .lister-img img {
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
-}
-
-.final-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 200px;
-  background-image: url(callout-rebrand-lightning.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-bottom: 200px;
-}
-
-.final-holder {
-  width: 750px;
-  text-align: center;
-}
-
-.top-font {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-}
-
-.top-font-inside {
-  display: flex;
-}
-
-.foot-hold {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
-}
-
-.foot-contain {
-  width: 65%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.inps-hold {
-  display: flex;
-  align-items: center;
-}
-
-.inps {
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-  border-bottom: 1px solid white;
-  gap: 15px;
-  height: 37px;
-}
-
-input {
-  height: 30px;
-  width: 200px;
-  background-color: transparent;
-  border: none;
-}
-
-::placeholder {
-  color: white;
-  font-size: 15px;
-}
-
-.display-holder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 200px;
-  width: 100%;
-}
-
-.display {
-  display: flex;
-  gap: 120px;
-  width: 65%;
-}
-
-.display-cont ul li {
-  list-style: none;
-  margin-top: 10px;
-  color: silver;
-  font-size: 16px;
-}
-
-.display-cont {
-  width: 100%;
-}
-
-hr {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-.Finally {
-  width: 65%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.Finally-head {
-  display: flex;
-  justify-content: center;
-  font-size: 14px;
-  color: #b6bbcf;
-}
-
-.e-choke ul {
-  display: flex;
-  gap: 30px;
-  list-style-type: none;
-}
-
-.e-choke ul li:hover {
-  color: rgb(153, 229, 255);
-  transition: ease-in-out 0.25s;
-}
-
-.e-choke-links {
-  display: flex;
-  gap: 20px;
-}
-.last-butt {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  border: 1px solid gray;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
 }
